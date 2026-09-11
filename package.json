@@ -1,0 +1,22 @@
+{
+  "name": "nexo-studio",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "db:generate": "drizzle-kit generate",
+    "dev": "node scripts/dev.mjs",
+    "check": "node scripts/check.mjs",
+    "check:build": "node scripts/check-build.mjs",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "devDependencies": {
+    "drizzle-kit": "0.31.4",
+    "drizzle-orm": "0.44.5"
+  },
+  "version": "1.0.0",
+  "description": "Site da Nexo com formul\u00e1rio de contato persistente em Cloudflare D1",
+  "engines": {
+    "node": ">=24 <25"
+  }
+}
