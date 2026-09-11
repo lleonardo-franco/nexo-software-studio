@@ -12,7 +12,7 @@
   },
   "devDependencies": {
     "drizzle-kit": "0.31.4",
-    "drizzle-orm": "0.44.5"
+    "drizzle-orm": "0.45.2"
   },
   "version": "1.0.0",
   "description": "Site da Nexo com formul\u00e1rio de contato persistente em Cloudflare D1",
