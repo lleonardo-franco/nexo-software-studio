@@ -1,0 +1,19 @@
+{
+	"$schema": "./node_modules/wrangler/config-schema.json",
+	"name": "nexo-software-studio",
+	"main": "dist/server/index.js",
+	"compatibility_date": "2026-09-11",
+	"observability": {
+		"enabled": true
+	},
+	"d1_databases": [
+		{
+			"binding": "DB",
+			"database_name": "nexo",
+			"database_id": "c333fc32-4f6f-4123-8fa8-3c7564503828",
+			"migrations_dir": "drizzle"
+		}
+	]
+	// Domínio próprio: adicione depois de apontar o DNS para a Cloudflare.
+	// "routes": [{ "pattern": "nexo.com.br", "custom_domain": true }]
+}
