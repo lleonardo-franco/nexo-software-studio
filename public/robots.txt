@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 Disallow: /api/
-Sitemap: https://nexo-software-studio.leonardo-lima31732.chatgpt.site/sitemap.xml
+Sitemap: https://nexo-software-studio.nexolabs.workers.dev/sitemap.xml
